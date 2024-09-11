@@ -8,9 +8,9 @@ from groq import Groq
 
 app = FastAPI()
 
-os.environ["GROQ_API_KEY"] = "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"
+
 client = Groq(
-    api_key="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",
+    api_key="API_KEY_OF_YOU",
 )
 # load index
 model_name = "sentence-transformers/all-mpnet-base-v2"
