@@ -1,4 +1,5 @@
-# RAG
+# RAG chatbot
+Xây dựng chatbot đơn giản sử dụng các thư viện, tools hỗ trợ như langchain, ...
 ## 1. Langchain
 - Sử dụng thư viện langchain để xây dựng RAG Applications 
 - Pipeline build chatbox:
@@ -21,3 +22,6 @@ python build_faiss.py
 ```bash
 python main_service.py
 ```
+
+## TODO
+- xây dựng chatbot sử dụng function calling 
